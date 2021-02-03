@@ -1,5 +1,6 @@
 # yolov5_trt_plugin
- This project used to create tensorrt yolov5 plugin which is adapted to ultralytics/yolov5.
+ This project used to create tensorrt yolov5 plugin which is adapted to ultralytics/yolov5 and references to https://github.com/wang-xinyu/tensorrtx.
+ 
  The format of result is [box_num, xmin, xmax, class, score, ...].
  
  You can use function Yolov5LayerPlugin::add_yolov5_layer() to add this plugin to your network.
